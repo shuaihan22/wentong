@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*第二屏*/
+
+.news{
+
+	width:1000px;
+
+	height:100%;
+
+	margin:0px auto;
+
+	position:relative;
+
+	top:100px;
+
+}
+
+.scrollbox{ 
+
+    width:1000px; 
+
+	margin-top:10px; 
+
+	overflow: hidden; 
+
+	padding: 10px 0px; 
+
+}
+
+#scrollDiv{
+
+	width:1000px;
+
+	height:560px; 
+
+	overflow:hidden;
+
+}
+
+#scrollDiv li{
+
+	height:140px; 
+
+	width:1000px;
+
+	overflow:hidden; 
+
+	vertical-align:bottom; 
+
+	zoom:1; 
+
+	padding:20px 0px;
+
+	border-bottom:#e0e0e0 dashed 1px;
+
+}
+
+#scrollDiv .news_img{
+
+	width:220px;
+
+	height:140px;
+
+	float:left;
+
+} 
+
+#scrollDiv .news_img img{
+
+	width:220px;
+
+	height:140px;
+
+} 
+
+#scrollDiv .news_xj{
+
+	width:740px;
+
+	margin-left:15px;
+
+	height:140px;
+
+	float:left;
+
+} 
+
+#scrollDiv .news_xj a{
+
+	font-size:24px;
+
+	color:#0c3467;
+
+	line-height:40px;
+
+}
+
+#scrollDiv .news_xj a:hover{color:#fc8404;}
+
+#scrollDiv .news_xj p{
+
+	line-height:25px;
+
+	font-size:16px;
+
+	color:#4e4d4d;
+
+}
+
+#scrollDiv .news_xj span{
+
+	color:#000;
+
+}
+
+#scrollDiv .news_xj p.font5{
+
+	line-height:25px;
+
+	display:block;
+
+	height:50px;
+
+	overflow:hidden;
+
+	font-size:16px;
+
+	color:#313030;
+
+}
+
+.scroltit{ 
+
+    height:26px; 
+
+	line-height:26px; 
+
+	padding-bottom:4px;
+
+    margin-bottom:4px;
+
+}
+
+.scroltit h3{ 
+
+    width:100px; 
+
+	float:left;
+
+}
+
+.scroltit .updown{
+
+	float:right; 
+
+	width:32px; 
+
+	height:22px; 
+
+	margin-left:4px;
+
+}
+
+#but_up{ 
+
+    background: url(../images/up.gif) no-repeat 0 0; 
+
+	text-indent:-9999px;
+
+}
+
+#but_down{ 
+
+    background:url(../images/down.gif) no-repeat 0 0; 
+
+	text-indent:-9999px;
+
+}
+
+/*第一屏*/
+
+.project{
+
+	width:100%;
+
+	height:100%;
+
+	position:relative;
+
+	z-index:1;	
+
+}
+
+.pro_img{
+
+	position:absolute;
+
+	width:100%;
+
+	height:100%;
+
+	
+
+}
+
+.pro_img img{
+
+	width:100%;
+
+	height:100%;
+
+	z-index:4;
+
+}
+
+.pro_one{
+
+	position:absolute;
+
+	background:url(../images/foot_color.png);
+
+	width:100%;
+
+	height: 100%;
+
+	z-index:5;
+
+}
+
+.detail{
+
+	margin:0px auto;
+
+	height:100%;
+
+}
+
+.teen_tit{
+
+	font-size:50px;
+
+	text-align:center;
+
+	display:block;
+
+    margin:20% 0px 0px 0px;
+
+}
+
+.intro{
+
+	width:1000px;
+
+	height:300px;
+
+	margin:60px 0px 0px;
+
+}
+
+.intro ul li{
+
+	float:left;
+
+	width:280px;
+
+	height:280px;
+
+	overflow:hidden;
+
+	padding:0px 20px;
+
+	border-right:#fff 1px dashed;
+
+	line-height:40px;
+
+	font-size:18px;
+
+}
+
+.font5{
+
+	line-height:80px;
+
+	font-size:28px;
+
+}
+
+.font6{
+
+	line-height:40px;
+
+	font-size:22px;
+
+	letter-spacing:5px;
+
+}

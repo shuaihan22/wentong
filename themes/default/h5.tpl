@@ -1,0 +1,11 @@
+{
+	"id":"{$id}",
+	"comments":"987",	
+	"title":{$title|json_encode},
+	"desc":{$description|json_encode},
+	"html":{$content|json_encode},	
+	"items":{$related_pages},
+	"comments":"987",
+	"author":{$author|json_encode},
+	"source":{$source|json_encode}
+}

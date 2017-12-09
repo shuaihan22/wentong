@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>{$title}</title>
+<meta name="keywords" content="{$keywords}">
+<meta name="description" content="{$description}">
+<link href="/style_pc/css/index.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/style_pc/css/jquery.fullPage.css" type="text/css">
+<link rel="stylesheet"  href="/style_pc/css/style.css" type="text/css">
+<script src="/style_pc/js/jquery-1.8.3.min.js"></script>
+<script src="/style_pc/js/jquery-ui-1.10.3.min.js"></script>
+<script src="/style_pc/js/jquery.fullPage.min.js"></script>
+<script src="/style_pc/js/jquery.mobile.touchsupport.js"></script> 
+<script src="/style_pc/js/jquery.phoenix.js"></script> 
+
+</head>
+
+<body>
+<!--导航-->
+   <div class="nav">
+      <div class="nav_list"><a href="/">
+	  {cts var=name from=block refid='com_logo' sortby='sort' order='d' limit=1}
+         <div class="logo"><img style="height:30px;width:120px; margin-top: 8px; margin-left: 15px;" src="/style_pc/images/logo_02.png"/></div>{/cts}</a>
+         <div class="nav_l">
+            <ul>
+               <li><a href="/" class="on">首页</a></li>
+               <li><a href="/about.html">关于文通</a></li>
+               <li><a href="/gaoguanxiangmu">高管项目</a></li>
+               <li><a href="/qingnianxiangmu">青年项目</a></li>
+               <li><a href="/chenggonganli">成功案例</a></li>
+			   <li><a href="/team.html">团队与师资</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+<!--内容-->
+   <!--第一屏-->
+
+   <div>
+   {cts var=name from=block refid='index_carousel' sortby='sort' order='d'}
+      <div class="phoenix-feather"> 
+         <img src="{$name.image|media}" alt="{$name.title}" /> 
+         <div class="banner_bg">
+            <!--  <div class="banner_wz">
+              <img src="/style_pc/images/banner_wz.png">
+            </div> -->
+            <a href="{$name|url}"></a>
+         </div>
+      </div>{/cts} 
+  </div>
+
+   <!--第二屏-->
+ <div style="height:685px">
+   <div class="tit w1000">
+      <p class="orange">为什么首选文通</p>
+   </div>
+   <div class="liyou">
+      <div class="ly_01 top">
+         <span>诚信</span>
+         <p>言必行，行必果</p>
+      </div>
+      <div class="ly_01 right">
+         <span> 团队合作</span>
+         <p>协作 实现共同目标</p>
+      </div>
+      <div class="ly_01 bottom ">
+         <span> 效率</span>
+         <p>用最少的资源，追求最大化的投资回报率</p>
+      </div>
+      <div class="ly_01 left">
+         <span> 多样性  </span>
+         <p>多样性- 融合中西 文化，打造多样性 文化的工作环境和 员工群体</p>
+      </div>
+   </div>
+   </div>
+
+   <!--第三屏-->
+   <div>
+     <div class="footer_bg">
+        <div class="footer white w1000">
+           <div class="foot_logo text_center w1000"><img style="height:80px;width:300px;" src="/style_pc/images/logo_02.png"></div>
+           <p class="font1 text_center w1000">美国文通国际创新合作中心</p>
+           <p class="font2 text_center w1000">UNITED  CULTURES  INNOVATION  CENTER<br> FOR  INTERNATIONAL  COOPER</p>
+           <p class="font3 text_center w1000 orange">沟通中美交流的平台</p>
+           <p class="font3 text_center w1000 orange">Platform  for  U.S.-China  Communications</p>
+           {include './address.tpl'}
+  {cts var=name from=block refid='site_Copyright' sortby='sort' order='d' limit=1}
+          <p class="w1000 text_center white font4">{$name.com_txt}</p>{/cts}
+        </div>
+       
+     </div>              
+   </div>
+<!--侧栏-->  
+{include './left_sidebar.tpl'}
+</body>
+</html>

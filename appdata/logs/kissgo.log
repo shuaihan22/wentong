@@ -1,0 +1,24 @@
+2017-01-18 09:06:16[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.user' doesn't exist [INSERT INTO user (`user_id`,`group_id`,`username`,`email`,`passwd`,`status`,`registered`,`update_time`,`nickname`,`ip`) VALUES (:user_id_0 , :group_id_0 , :username_0 , :email_0 , :passwd_0 , :status_0 , :registered_0 , :update_time_0 , :nickname_0 , :ip_0)]
+	file: F:\wamp\www\6\includes\core\phpcrud\InsertSQL.php at line 109
+		F:\wamp\www\6\includes\core\phpcrud\QueryBuilder.php at line 203
+			F:\wamp\www\6\includes\core\phpcrud\phpcrud.php at line 190
+	script: /install/install.php
+	uri: /install/install.php
+2017-01-18 09:40:52[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.user' doesn't exist [INSERT INTO user (`user_id`,`group_id`,`username`,`email`,`passwd`,`status`,`registered`,`update_time`,`nickname`,`ip`) VALUES (:user_id_0 , :group_id_0 , :username_0 , :email_0 , :passwd_0 , :status_0 , :registered_0 , :update_time_0 , :nickname_0 , :ip_0)]
+	file: F:\wamp\www\6\includes\core\phpcrud\InsertSQL.php at line 109
+		F:\wamp\www\6\includes\core\phpcrud\QueryBuilder.php at line 203
+			F:\wamp\www\6\includes\core\phpcrud\phpcrud.php at line 190
+	script: /install/install.php
+	uri: /install/install.php
+2017-01-18 09:42:38[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.user' doesn't exist [INSERT INTO user (`user_id`,`group_id`,`username`,`email`,`passwd`,`status`,`registered`,`update_time`,`nickname`,`ip`) VALUES (:user_id_0 , :group_id_0 , :username_0 , :email_0 , :passwd_0 , :status_0 , :registered_0 , :update_time_0 , :nickname_0 , :ip_0)]
+	file: F:\wamp\www\6\includes\core\phpcrud\InsertSQL.php at line 109
+		F:\wamp\www\6\includes\core\phpcrud\QueryBuilder.php at line 203
+			F:\wamp\www\6\includes\core\phpcrud\phpcrud.php at line 190
+	script: /install/install.php
+	uri: /install/install.php
+2017-01-18 10:12:44[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.user' doesn't exist [INSERT INTO user (`user_id`,`group_id`,`username`,`email`,`passwd`,`status`,`registered`,`update_time`,`nickname`,`ip`) VALUES (:user_id_0 , :group_id_0 , :username_0 , :email_0 , :passwd_0 , :status_0 , :registered_0 , :update_time_0 , :nickname_0 , :ip_0)]
+	file: F:\wamp\www\6\includes\core\phpcrud\InsertSQL.php at line 109
+		F:\wamp\www\6\includes\core\phpcrud\QueryBuilder.php at line 203
+			F:\wamp\www\6\includes\core\phpcrud\phpcrud.php at line 190
+	script: /install/install.php
+	uri: /install/install.php

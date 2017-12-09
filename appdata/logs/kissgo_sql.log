@@ -1,0 +1,582 @@
+2016-08-29 15:24:44[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 413
+		 at line 
+			/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 175
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472456894394
+2016-08-29 15:24:44[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 353
+		/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 202
+			/data/wwwroot/www.minzhuzhihun.com/appdata/tmp/#tpls_c/system/views/user/fa9df14f4cb7138f36387f45840bd818c05cb85c_0.file.data.tpl.php at line 43
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472456894394
+2016-08-29 15:25:29[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 413
+		 at line 
+			/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 175
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472456894398
+2016-08-29 15:25:29[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 353
+		/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 202
+			/data/wwwroot/www.minzhuzhihun.com/appdata/tmp/#tpls_c/system/views/user/fa9df14f4cb7138f36387f45840bd818c05cb85c_0.file.data.tpl.php at line 43
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472456894398
+2016-08-29 15:31:28[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 413
+		 at line 
+			/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 175
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472456894423
+2016-08-29 15:31:28[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 353
+		/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 202
+			/data/wwwroot/www.minzhuzhihun.com/appdata/tmp/#tpls_c/system/views/user/fa9df14f4cb7138f36387f45840bd818c05cb85c_0.file.data.tpl.php at line 43
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472456894423
+2016-08-29 15:31:40[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 413
+		 at line 
+			/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 175
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472456894426
+2016-08-29 15:31:40[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 353
+		/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 202
+			/data/wwwroot/www.minzhuzhihun.com/appdata/tmp/#tpls_c/system/views/user/fa9df14f4cb7138f36387f45840bd818c05cb85c_0.file.data.tpl.php at line 43
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472456894426
+2016-08-29 15:34:30[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 413
+		 at line 
+			/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 175
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472457510870
+2016-08-29 15:34:30[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 353
+		/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 202
+			/data/wwwroot/www.minzhuzhihun.com/appdata/tmp/#tpls_c/system/views/user/fa9df14f4cb7138f36387f45840bd818c05cb85c_0.file.data.tpl.php at line 43
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472457510870
+2016-08-29 15:35:03[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 413
+		 at line 
+			/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 175
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472457510874
+2016-08-29 15:35:03[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 353
+		/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 202
+			/data/wwwroot/www.minzhuzhihun.com/appdata/tmp/#tpls_c/system/views/user/fa9df14f4cb7138f36387f45840bd818c05cb85c_0.file.data.tpl.php at line 43
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472457510874
+2016-08-29 15:35:15[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 413
+		 at line 
+			/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 175
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472457557154
+2016-08-29 15:35:15[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 353
+		/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 202
+			/data/wwwroot/www.minzhuzhihun.com/appdata/tmp/#tpls_c/system/views/user/fa9df14f4cb7138f36387f45840bd818c05cb85c_0.file.data.tpl.php at line 43
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472457557154
+2016-08-29 16:07:38[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 413
+		 at line 
+			/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 175
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472458947371
+2016-08-29 16:07:38[ERROR] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous [SELECT COUNT(user_id) FROM user AS U LEFT JOIN  user_group AS UG ON (U.group_id = UG.group_id) LEFT JOIN  user_meta AS UM ON (U.user_id = UM.user_id AND UM.meta_name = 'roles') WHERE `U`.`deleted` = :U_deleted_0]
+	file: /data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 353
+		/data/wwwroot/www.minzhuzhihun.com/includes/core/phpcrud/Query.php at line 202
+			/data/wwwroot/www.minzhuzhihun.com/appdata/tmp/#tpls_c/system/views/user/fa9df14f4cb7138f36387f45840bd818c05cb85c_0.file.data.tpl.php at line 43
+	script: index.php
+	uri: /system/user/data/?ktype=username&keyword=&U.group_id=&M_role_id=&status=&_ct=1&_cp=1&_lt=20&_sf=user_id&_od=d&_=1472458947371
+2017-01-21 14:23:18[ERROR] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY CP.publish_time DESC LIMIT ?,?' at line 1 [SELECT `CP`.`id`,`CP`.`create_time`,`CP`.`create_uid`,`CP`.`update_time`,`CP`.`update_uid`,`CP`.`publish_time`,`CP`.`publish_uid`,`CP`.`status`,`CP`.`channel`,`CP`.`model`,`CP`.`flag_a`,`CP`.`flag_h`,`CP`.`flag_c`,`CP`.`flag_b`,`CP`.`flag_j`,`CP`.`view_count`,`CP`.`title`,`CP`.`description`,`CP`.`title2`,`CP`.`title_color`,`CP`.`image`,`CP`.`author`,`CP`.`source`,`CP`.`tag`,`CP`.`url`,`CP`.`display_sort`,`CC`.`url` AS `channel_index_url`,`CC`.`list_page_url` AS `channel_list_url`,`CC`.`default_page` AS `channel_pageid`,`CC`.`index_page` AS `channel_index_pageid`,`CC`.`list_page` AS `channel_list_pagepid`,`CC`.`root`,`CC`.`name` AS `channel_name`,`CM`.`name` AS `model_name` FROM cms_page AS CP LEFT JOIN  cms_channel AS CC ON (CP.channel = CC.refid) LEFT JOIN  cms_model AS CM ON (CP.model = CM.refid) WHERE `CP`.`deleted` = :CP_deleted_0 AND `CP`.`hidden` = :CP_hidden_0 AND `CP`.`id` IN () ORDER BY CP.publish_time DESC LIMIT :limit_0,:limit_1]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 353
+		F:\wamp\www\6\includes\core\phpcrud\Query.php at line 247
+			F:\wamp\www\6\modules\cms\providers\cms_pages_provider.php at line 103
+	script: /index.php
+	uri: /cms/cts/
+2017-01-21 14:35:43[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=site_Copyright&name=com_txt&_=1484980024478
+2017-01-21 14:36:03[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:11:48[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=site_Copyright&name=com_one&_=1484980693079
+2017-01-21 15:12:38[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:12:51[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=site_Copyright&name=com_two&_=1484980693080
+2017-01-21 15:13:07[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:13:29[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=site_Copyright&name=com_three&_=1484980693081
+2017-01-21 15:13:40[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:13:51[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=site_Copyright&name=com_four&_=1484980693082
+2017-01-21 15:14:01[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:15:02[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=1&block=site_Copyright&name=com_txt&_=1484980693089
+2017-01-21 15:15:02[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:15:12[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=2&block=site_Copyright&name=com_one&_=1484980693090
+2017-01-21 15:15:12[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:15:20[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=3&block=site_Copyright&name=com_two&_=1484980693091
+2017-01-21 15:15:20[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:15:28[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=4&block=site_Copyright&name=com_three&_=1484980693092
+2017-01-21 15:15:28[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:15:39[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=5&block=site_Copyright&name=com_four&_=1484980693093
+2017-01-21 15:15:39[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 15:47:25[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=about_super&name=super_txt&_=1484982366648
+2017-01-21 15:47:36[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 16:20:45[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=about_about&name=about_content&_=1484982366698
+2017-01-21 16:22:12[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 16:22:32[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=7&block=about_about&name=about_content&_=1484982366702
+2017-01-21 16:22:32[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 16:23:16[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=7&block=about_about&name=about_content&_=1484982366706
+2017-01-21 16:23:16[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-21 17:07:31[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=aboutus&name=about_us&_=1484980693126
+2017-01-21 17:09:12[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:35:27[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_&_=1485050747916
+2017-01-22 10:35:50[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_abstract&_=1485050747917
+2017-01-22 10:36:06[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:36:38[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_content&_=1485050747918
+2017-01-22 10:36:56[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_conten&_=1485050747919
+2017-01-22 10:36:56[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_conte&_=1485050747920
+2017-01-22 10:36:56[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_cont&_=1485050747921
+2017-01-22 10:36:57[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_con&_=1485050747922
+2017-01-22 10:36:57[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_co&_=1485050747923
+2017-01-22 10:36:57[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_c&_=1485050747924
+2017-01-22 10:36:58[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_&_=1485050747925
+2017-01-22 10:36:58[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=senior_pic&name=senior_detail&_=1485050747926
+2017-01-22 10:37:20[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:37:30[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:40:15[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=9&block=senior_pic&name=senior_abstract&_=1485050747937
+2017-01-22 10:40:15[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:40:23[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=11&block=senior_pic&name=senior_detail&_=1485050747938
+2017-01-22 10:40:23[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:41:05[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=9&block=senior_pic&name=senior_abstract&_=1485050747943
+2017-01-22 10:41:05[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:41:13[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=11&block=senior_pic&name=senior_detail&_=1485050747944
+2017-01-22 10:41:13[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:44:39[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=youth_pic&name=youth_txtone&_=1485050747955
+2017-01-22 10:45:44[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:46:00[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=youth_pic&name=youth_txttwo&_=1485050747956
+2017-01-22 10:46:11[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:46:23[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=13&block=youth_pic&name=youth_txttwo&_=1485050747957
+2017-01-22 10:46:23[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0 AND `id` != :id_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-01-22 10:46:37[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /system/ajax/validate/BlockFieldForm/checkRefId/name/?id=0&block=youth_pic&name=youth_txtthree&_=1485050747958
+2017-01-22 10:46:45[ERROR] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'model' in 'where clause' [SELECT COUNT(id) FROM cms_block_field AS cms_block_field WHERE `name` = :name_0 AND `model` = :model_0]
+	file: F:\wamp\www\6\includes\core\phpcrud\Query.php at line 413
+		 at line 
+			F:\wamp\www\6\includes\core\phpcrud\Query.php at line 175
+	script: /index.php
+	uri: /cms/blockfield/save/
+2017-10-19 14:19:29[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT `value`,`preference_group` AS `pg` FROM preferences AS preferences WHERE `name` = :name_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 118
+	script: /index.php
+	uri: /
+2017-10-19 14:19:29[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT * FROM preferences AS preferences]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 126
+	script: /index.php
+	uri: /
+2017-10-19 14:19:35[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT `value`,`preference_group` AS `pg` FROM preferences AS preferences WHERE `name` = :name_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 118
+	script: /index.php
+	uri: /
+2017-10-19 14:19:35[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT * FROM preferences AS preferences]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 126
+	script: /index.php
+	uri: /
+2017-10-19 14:20:00[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT `value`,`preference_group` AS `pg` FROM preferences AS preferences WHERE `name` = :name_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 118
+	script: /index.php
+	uri: /index.php
+2017-10-19 14:20:00[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT * FROM preferences AS preferences]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 126
+	script: /index.php
+	uri: /index.php
+2017-10-19 14:22:02[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT `value`,`preference_group` AS `pg` FROM preferences AS preferences WHERE `name` = :name_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 118
+	script: /index.php
+	uri: /
+2017-10-19 14:22:02[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT * FROM preferences AS preferences]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 126
+	script: /index.php
+	uri: /
+2017-10-25 14:43:28[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT `value`,`preference_group` AS `pg` FROM preferences AS preferences WHERE `name` = :name_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 118
+	script: /index.php
+	uri: /
+2017-10-25 14:43:28[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT * FROM preferences AS preferences]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 126
+	script: /index.php
+	uri: /
+2017-10-25 15:17:26[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT `value`,`preference_group` AS `pg` FROM preferences AS preferences WHERE `name` = :name_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 118
+	script: /index.php
+	uri: /phpMyAdmin/setup/index.php
+2017-10-25 15:17:26[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT * FROM preferences AS preferences]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 126
+	script: /index.php
+	uri: /phpMyAdmin/setup/index.php
+2017-10-25 15:17:26[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.cms_page' doesn't exist [SELECT * FROM cms_page AS cms_page WHERE `url_key` = :url_key_0 AND `deleted` = :deleted_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 222
+			C:\phpStudy\PHPTutorial\WWW\wentong\modules\cms\classes\CmsPage.php at line 281
+	script: /index.php
+	uri: /phpMyAdmin/setup/index.php
+2017-10-25 15:17:26[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.cms_page' doesn't exist [SELECT * FROM cms_page AS cms_page WHERE `url_key` = :url_key_0 AND `deleted` = :deleted_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 222
+			C:\phpStudy\PHPTutorial\WWW\wentong\modules\cms\classes\CmsPage.php at line 281
+	script: /index.php
+	uri: /phpMyAdmin/setup/index.php
+2017-10-25 15:17:26[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.cms_page' doesn't exist [SELECT `url` FROM cms_page AS cms_page WHERE `channel` = :channel_0 AND `deleted` = :deleted_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\modules\cms\classes\CmsPage.php at line 296
+	script: /index.php
+	uri: /phpMyAdmin/setup/index.php
+2017-10-25 15:17:37[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT `value`,`preference_group` AS `pg` FROM preferences AS preferences WHERE `name` = :name_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 118
+	script: /index.php
+	uri: /phpMyAdminTest/setup/index.php
+2017-10-25 15:17:37[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.preferences' doesn't exist [SELECT * FROM preferences AS preferences]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\functions.php at line 126
+	script: /index.php
+	uri: /phpMyAdminTest/setup/index.php
+2017-10-25 15:17:37[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.cms_page' doesn't exist [SELECT * FROM cms_page AS cms_page WHERE `url_key` = :url_key_0 AND `deleted` = :deleted_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 222
+			C:\phpStudy\PHPTutorial\WWW\wentong\modules\cms\classes\CmsPage.php at line 281
+	script: /index.php
+	uri: /phpMyAdminTest/setup/index.php
+2017-10-25 15:17:37[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.cms_page' doesn't exist [SELECT * FROM cms_page AS cms_page WHERE `url_key` = :url_key_0 AND `deleted` = :deleted_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 222
+			C:\phpStudy\PHPTutorial\WWW\wentong\modules\cms\classes\CmsPage.php at line 281
+	script: /index.php
+	uri: /phpMyAdminTest/setup/index.php
+2017-10-25 15:17:37[ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wentong.cms_page' doesn't exist [SELECT `url` FROM cms_page AS cms_page WHERE `channel` = :channel_0 AND `deleted` = :deleted_0]
+	file: C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 353
+		C:\phpStudy\PHPTutorial\WWW\wentong\includes\core\phpcrud\Query.php at line 202
+			C:\phpStudy\PHPTutorial\WWW\wentong\modules\cms\classes\CmsPage.php at line 296
+	script: /index.php
+	uri: /phpMyAdminTest/setup/index.php

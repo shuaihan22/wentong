@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+/*成功案例*/
+.example{
+	position:relative;
+	top:90px;
+	margin:0px auto;
+	width:1000px;
+	height:auto;
+	overflow:hidden;
+	z-index:0;
+}
+.exm_list{
+	width:980px;
+	margin:10px 10px;
+	height:auto;
+	overflow:hidden;
+}
+.exm_list ul li{
+	width:980px;
+	padding:30px 0px;
+	height:140px;
+	border-bottom:#e0e0e0 1px solid;
+}
+.exm_img{
+	float:left;
+	width:220px;
+	height:140px;
+}
+.exm_img img{
+	
+	height:140px;
+}
+.exm_det{
+	float:left;
+	width:740px;
+	margin:0px 10px;
+	height:auto;
+	overflow:hidden;
+}
+.exm_det a{
+    color:#fc8404;
+	font-size:24px;
+	width:740px;
+	height:40px;
+	overflow:hidden;
+	display:block;
+	line-height:40px;
+}
+.exm_det a:hover{color:#033c84;}
+.exm_det p{
+	width:740px;
+	overflow:hidden;
+	height:90px;
+	line-height:30px;
+}
+/*页码*/
+.page{
+	width:100%;
+	height:35px;
+	margin:50px auto;
+}
+.page ul{ text-align:center; width:100%; margin:10px 0px;}
+.page ul li{
+	text-align: center;
+	line-height:20px;
+	display:inline-block;
+	vertical-align:middle;
+	margin:0px 5px;
+}
+.page ul li a{
+	display:block;
+	background:#fff;
+	border:#d5d5d5 1px solid;
+	padding:5px 15px;
+	float:left;
+	border-radius:6px;
+	color:#000;
+}
+.page ul li a:hover{ background:#fc8404; color:#fff;}
+.copy{
+	position:relative;
+	top:100px;
+	width:1000px;
+	margin:0px auto;
+	text-align:center;
+	font-size:12px;
+	color:#3f3e3e;
+}
+/*文章界面*/
+.article{
+	position:relative;
+	top:75px;
+	margin:0px auto 10px auto;
+	width:1000px;
+	height:auto;
+	overflow:hidden;
+	z-index:0;
+}
+.hot{
+	width:1000px;
+	height:40px;
+}
+.hot_img{
+	width:160px;
+	height:40px;
+	float:left;
+}
+.hot_img img{
+	width:160px;
+	height:40px;
+}
+.hot_list{
+	width:800px;
+	margin:0px 20px;
+	overflow:hidden;
+	height:40px;
+	float:left;
+}
+.hot_list ul li{
+	float:left;
+	padding:0px 15px;
+	display:block;
+	line-height:40px;
+}
+.hot_list ul li a:hover{ color:#fc8404;}
+/*位置*/
+.pos{
+	margin-top:15px;
+	height:30px;
+	width:1000px;
+}
+.pos a{ 
+    margin:0px 5px;
+}
+.pos a:hover{ color:#fc8404;}
+/*正文*/
+.neirong{
+	margin-top:10px;
+	padding-top:35px;
+	border-top:#fc8404 2px solid;
+	width:1000px;
+}
+.wz{
+	width:670px;
+	border-right:#bababa 1px solid;
+	float:left;
+	height:auto;
+	overflow:hidden;	
+}
+.wz_tit{
+	width:630px;
+	display:block;
+	text-align:center;
+	line-height:30px;
+	margin:10px auto;
+	font-size:22px;
+}
+.wz_author{
+	width:670px;
+	height:35px;
+	margin:0px auto;
+}
+.wz_author ul{ text-align:center; width:100%; margin:10px 0px;}
+.wz_author ul li{
+	text-align: center;
+	line-height:20px;
+	display:inline-block;
+	vertical-align:middle;
+	margin:0px 10px;
+	color:#b5b4b4;
+}
+.zw{
+	width:640px;
+	margin:0px auto;
+}
+.zw p{
+	text-indent:2em;
+	line-height:30px;
+}
+.zw img{
+	display:block;
+	max-width:540px;
+	max-height:380px;
+	margin:20px auto;
+}
+.tj_right{
+	float:right;
+	width:315px;
+}
+.rebo{
+	width: 315px;
+	margin-bottom: 10px;
+}
+.rebo p,.retu p{
+	height: 35px;
+	line-height: 30px;
+	text-indent: 0.25em;
+	font-size: 18px;
+	color: #fc8404;
+}
+.rebo ul li{
+	height:28px;
+	width: 300px;
+	line-height: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+.rebo ul li a:hover{color:#fc8404;}
+.rebo ul li span{ color:#fc8404; margin-right:10px;}
+.retu{
+	width: 315px;
+	margin-top:10px;
+}
+.retu ul{
+	margin-top: 16px;
+	width: 350px;
+}
+.retu ul li{
+	float: left;
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+.retu ul li p{
+	float:left;
+	width: 180px;
+	height: 75px;
+	margin:0px 0px 0px 10px;
+	display:block;
+	font-size:16px;
+	line-height: 25px;
+	overflow: hidden;
+	text-indent:0px;
+}
+.retu ul li img{
+	float:left;
+	width: 115px;
+	height:80px;
+}
+.retu ul li p a{
+	color: #333;
+}
+.retu ul li p a:hover{
+	color:#fc8404;
+}
